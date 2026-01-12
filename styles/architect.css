@@ -23,6 +23,8 @@
     /* dark 03 */
     .text-greylight{
         color: #727272;
+        line-height: 26px;
+        margin-top: 24px;
     }
 
     .bg-light{
@@ -90,7 +92,58 @@
 
 .banner-img{
     width: 100%;
+    margin-bottom: 45px;
 }
+
+
+/* main section styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature{
+    margin-left: 73px;
+    max-width: 537px;
+}
+
+.feature-heading{
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+#first{
+    font-weight: 500;
+}
+.third{
+    color: #FF900E;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px){
