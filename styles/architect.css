@@ -20,6 +20,10 @@
         color: #424242;
     }
 
+    .text-primary{
+        color: #FF900E;
+    }
+
     /* dark 03 */
     .text-greylight{
         color: #727272;
@@ -122,7 +126,7 @@ main > section{
     max-width: 537px;
 }
 
-.feature-heading{
+.section-title{
     font-weight: 700;
     font-size: 3rem;
 
@@ -131,9 +135,7 @@ main > section{
 #first{
     font-weight: 500;
 }
-.third{
-    color: #FF900E;
-}
+
 
 
 
@@ -147,7 +149,34 @@ main > section{
 
 
 @media screen and (max-width:576px){
-    .navbar, .nav-links{
+    .navbar, .nav-links, .teams{
         flex-direction: column;
+    }
+
+    .teams{
+
+    }
+
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-feature{
+        max-width: 400px;
+        text-align: center;
+        margin: 40px auto;
+    }
+
+}
+
+
+
+
+/* mediam device quary */
+@media screen and (min-width:576px) and (max-width:992px){
+    .teams{
+        flex-direction: column;
+    }
+    .our-feature{
+        margin: 40px auto;
     }
 }
