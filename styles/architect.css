@@ -30,6 +30,12 @@
         line-height: 26px;
         margin-top: 24px;
     }
+    /* common title heading */
+    .section-title{
+    font-weight: 700;
+    font-size: 3rem;
+
+}
 
     .bg-light{
         background-color: rgba(255, 144, 14, 0.1);
@@ -111,6 +117,7 @@ main > section{
     margin-top: 130px;
 }
 
+/* teams and feature styles */
 .teams{
     align-items: center;
 }
@@ -126,15 +133,55 @@ main > section{
     max-width: 537px;
 }
 
-.section-title{
-    font-weight: 700;
-    font-size: 3rem;
-
-}
-
 #first{
     font-weight: 500;
 }
+
+/* love feature section style */
+
+.love-section{
+    gap: 146px;
+    
+}
+#love-section-heading-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+#love-section-p{
+    margin-bottom: 132px;
+    margin-top: 40px;
+}
+.love-feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.love-feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+
+#exparience-badge{
+    padding: 46px 42px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: -90px;
+    margin-left: -70px;
+}
+#experience-year{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+#mini{
+    font-size: 1.5rem;
+}
+
+
+
 
 /* some facts card styles */
 .fact-description{
@@ -181,6 +228,8 @@ main > section{
 
 
 
+
+
 @media screen and (max-width:576px){
     .navbar, .nav-links, .teams{
         flex-direction: column;
@@ -204,6 +253,24 @@ main > section{
         gap: 30px;
         justify-items: center;
     }
+    .fact-contant{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact-description{
+        margin: auto;
+    }
+
+    .love-section{
+        flex-direction: column;
+    }
+    .love-feature-architech img{
+        width: 100%;
+    }
+    #exparience-badge{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 
     
 
@@ -225,4 +292,29 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         justify-items: center;
+    }
+    .fact-contant{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact-description{
+        margin: auto;
+    }
+    .love-section{
+        flex-direction: column;
+    }
+    .love-feature-architech{
+        align-items: center;
+    }
+    .love-feature-architech img{
+        width: 100%;
+
+    }
+   #exparience-badge{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+
+
 }
