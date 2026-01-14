@@ -57,6 +57,10 @@
         border: none;
         border-radius: 8px;
         margin-top: 32px;
+        cursor: pointer;
+    }
+    .btn-primary:hover{
+        background-color: green;
     }
 
 
@@ -69,6 +73,9 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
+    position: sticky;
+    top: 0;
+
 }
 
 .brand{
@@ -77,6 +84,12 @@
 
 .nav-links{
     gap: 30px;
+}
+
+    
+
+.nav-links li a:hover{
+    background-color: rgb(221, 208, 190);
 }
 
 .nav-item{
