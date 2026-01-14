@@ -11,6 +11,13 @@
 
  /* shared style  */
 
+    .navbar,
+     .banner,
+     footer{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
     .display-flex{
         display: flex;
     }
@@ -52,14 +59,12 @@
         margin-top: 32px;
     }
 
+
  /* header styles */
 
  /* navber related styles */
 
- .navbar, .banner{
-    max-width: 1440px;
-    margin: 0 auto;
- }
+
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -217,6 +222,33 @@ main > section{
     color: #727272;
 }
 
+/* sponsor sectin styles */
+.sponsor-container{
+    text-align: center;
+}
+.sponsor-contant{
+    max-width: 540px;
+    margin: 0 auto;
+}
+.sponsor-p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.sponsor-cardbox{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+/* footer styles */
+footer{
+    background-color: #FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    text-align: center;
+    padding: 30px 0;
+}
+
 
 
 
@@ -271,6 +303,23 @@ main > section{
         margin-left: 20px;
         margin-top: 20px;
     }
+    .sponsor-cardbox{
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 30px;
+    }
+    .sponsor-contant{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sponsor-heading{
+        font-size: 2rem;
+    }
+    footer{
+    margin: 50px 10px 70px 10px;
+    text-align: center;
+    padding: 30px 10px;
+}
 
     
 
@@ -313,6 +362,12 @@ main > section{
    #exparience-badge{
         margin-left: 20px;
         margin-top: 20px;
+    }
+
+    .sponsor-cardbox{
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 30px;
     }
     
 
