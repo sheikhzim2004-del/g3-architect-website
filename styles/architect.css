@@ -387,6 +387,10 @@ footer{
     place-items: center;
     gap: 30px;
     }
+    .navbar{
+    position: static;
+    top: 0;
+}
     
 
 
